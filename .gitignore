@@ -2,3 +2,5 @@
 /logs/*
 !/logs/README.md
 .idea/
+var/data/*
+!var/data/.gitignore

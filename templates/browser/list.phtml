@@ -1,0 +1,10 @@
+<?php if (isset($files)) : ?>
+    <ul>
+        <?php foreach ($files as $file): ?>
+            <li><?= $file ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+<p>Try <a href="http://www.slimframework.com">SlimFramework</a>
+    <?php endif; ?>
+
